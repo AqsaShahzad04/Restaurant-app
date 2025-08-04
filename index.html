@@ -11,24 +11,37 @@
             <h1>Aqsa's Diner</h1>
             <p>The best burgers and pizzas in town</p>
          </nav>
-          <!-- {
-        name: "Pizza",
-        ingredients: ["pepperoni", "mushrom", "mozarella"],
-        id: 0,
-        price: 14,
-        emoji: "🍕"
-    }, -->
-          <div class="item-container">
-           <div class="item-img-icon">🍕</div>
-            <div class="item-details">
-                <h2>Pizza</h2>
-                <p>pepperoni,mushrom and mozarella</p>
-                 <h3>$14</h3>
-            </div>
-             <button>+</button>
+         <!-- discount-banner -->
+          <div class="discount-banner">
+            <p class="scrolling-text">Buy 2 Pizzas 🍕🍕 and get One Burger 🍔 free!!!!</p>
+           
+                
+            <p class="scrolling-text"> Buy one bear 🥂 and get 15% off</p>
+            
           </div>
+           
+            <!-- menu section -->
+            <main class="main-content">
+            </main>
+          <!-- Recipet section -->
+            <section class="reciept">
+            </section>
+
+         <!-- form for order -->
+          <form action="index.html" class="form-container">
+            <h2>Enter Card details</h2>
+             <input type="text" name="fullName" id="name" placeholder="Enter Your Name" required>
+             <input type="text" name="card" id="Card" placeholder="Enter your card number " required>
+             <input type="text" name="cvv" id="Cvv" placeholder="Enter your CVV " required> 
+             <button id="pay-btn" class="place-order">Pay</button>          
+          </form>
+
+          <!-- post-order-message -->
+           <div class="thankYou-msg">
+             
+           </div>
         </div>
-	<script src="index.js"></script>
+	<script src="index.js" type="module"></script>
     </body>
 </html>
 

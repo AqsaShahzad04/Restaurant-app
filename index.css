@@ -2,11 +2,17 @@ body {
     margin: 0;
     width:100%;
       font-family: "Smythe", system-ui;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxfTzJ46HIvx_NoVmamEcazjB0kPPIR7JD_A&s');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   
    
 } 
 .app-container{
+    background-color:whitesmoke;
     width:600px;
-    height:1161px;
+    /* height:1161px; */
     border:1px solid;
      margin:0 auto;
 }
@@ -73,4 +79,137 @@ nav p{
     font-size: 25px;
     background-color: #FFFFFF;
     margin:10px 0 auto auto;
+    cursor: pointer;
+}
+.item-container button:hover{
+    background-color: #6b6767 ;
+    color:white
+}
+.discount-banner {
+    width: 100%;
+    background-color:brown;  /* or any bold color you like */
+    text-align: center;
+    padding:20px;
+    box-sizing: border-box;
+    color:cornsilk;
+    font-size:24px;
+}
+
+
+
+.reciept{
+    width:508px;
+    margin:0 auto;
+    /* border:2px solid; */
+    height:auto;
+    display:none;
+}
+.reciept h3{
+    text-align: center;
+    font-size:28px;
+    font-weight:400;
+    margin-bottom:40px;
+}
+.bill-item-details{
+    display:flex;
+    padding:20px;
+   
+}
+.price{
+    margin:0 0 auto auto;
+    font-size:20px;
+    margin-top:10px;
+}
+.item-name{
+    font-size:28px;
+    font-weight:500;
+    margin:0;
+    margin-right:10px;
+}
+.remove{
+    font-size:22px;
+    font-weight:300;
+    color:rgb(162, 157, 157);
+    margin:0;
+    margin-top:5px;
+    cursor: pointer;
+}
+.remove:hover{
+    color:rgb(77, 75, 75);
+}
+.place-order{
+    width:508px;
+    height:60px;
+    border:none;
+    margin:30px auto;
+    background-color: #16DB99;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.border-bottom{
+    width:508px;
+    margin:0 auto;
+    border-bottom:2px solid #393333;
+
+}
+.TotalPrice .price{
+   margin-top:18px;
+   
+} 
+.form-container{
+    width:524px;
+    height:540px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    background-color: white;
+    display:none;
+}
+.form-container h2{
+    text-align: center;
+    padding:30px;
+    font-size: 24px;
+}
+.form-container input{
+    width:475px;
+    height:71px;
+    margin:10px auto;
+    font-size: 20px;
+    padding-left:10px;
+}
+#pay-btn{
+    width:475px;
+    margin-top:35px;
+   
+    
+}
+
+.thankYou-msg{
+    width:504px;
+    height:120px;
+    text-align: center;
+    color:#065F46;
+    background-color: #ECFDF5;
+    font-size: 32px;
+    margin:0 auto;
+    display:none;
+  
+}
+.thankYou-msg p{
+      padding-top:30px;
+}
+.display{
+    display:block;
 }
